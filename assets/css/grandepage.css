@@ -1,0 +1,94 @@
+:root{
+    --primary-color: blue;
+    --white-color: white;
+    --gap: 3rem;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'open sans', 'sans-serif';
+    font-size: 1.6rem;
+    gap: 30px;
+    
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'montserrat', 'sans-serif';
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 5.5rem;
+    color: var(--white-color);
+}
+
+h3{
+    font-size: 5rem;
+}
+h4{
+    font-size: 4.5rem;
+}
+h5{
+    font-size: 4rem;
+}
+h6{
+    font-size: 3.5rem;
+}
+
+.imgfundo{
+    background-image: url('../img/Confetti-Doodles.svg');
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.main-cont{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section{
+    
+    min-height: 100vh;
+}
+
+.menu{
+    position: fixed;
+    background-color: white;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+.menu-a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    
+}
+
+.menu-a nav ul li a{
+    display: flex;
+}
